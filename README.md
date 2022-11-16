@@ -22,17 +22,17 @@ APIs de Cadastro, edição, exclusão, listagem de Reservas de salas
 ### Detalhes do Software – Regras APis Notificações
 
 Esta API será comtemplada com 1 regras de validação.
-•	Validação de titulo não pode ser vazio.
+*	Validação de titulo não pode ser vazio.
 
 ### Detalhes do Software – Regras APis Reservas
 
 Esta API será comtemplada com 6 regras de validação.
-•	Validação de local da reseva que não pode ser vazio, sendo notificado através de nosso sistema de notificações.
-•	Validação de sala da reseva que não pode ser vazio, sendo notificado através de nosso sistema de notificações.
-•	Validação de data inicial da reseva que não pode ser vazio e não pode ser menor que data atual, sendo notificado através de nosso sistema de notificações.
-•	Validação de data final da reseva que não pode ser vazio e não pode ser menor que data inicial, sendo notificado através de nosso sistema de notificações.
-•	Validação de responsável da reseva que não pode ser vazio, sendo notificado através de nosso sistema de notificações.
-•	Validação de choque de horários da reseva que não pode a mesma sala no mesmo local ser reservada na mesma data e horario de outra reserva, sendo notificado através de nosso sistema de notificações.
+*	Validação de local da reseva que não pode ser vazio, sendo notificado através de nosso sistema de notificações.
+*	Validação de sala da reseva que não pode ser vazio, sendo notificado através de nosso sistema de notificações.
+*	Validação de data inicial da reseva que não pode ser vazio e não pode ser menor que data atual, sendo notificado através de nosso sistema de notificações.
+*	Validação de data final da reseva que não pode ser vazio e não pode ser menor que data inicial, sendo notificado através de nosso sistema de notificações.
+*	Validação de responsável da reseva que não pode ser vazio, sendo notificado através de nosso sistema de notificações.
+*	Validação de choque de horários da reseva que não pode a mesma sala no mesmo local ser reservada na mesma data e horario de outra reserva, sendo notificado através de nosso sistema de notificações.
 
 ### Detalhes da arquitetura
 
@@ -54,26 +54,26 @@ As telas do sistema estarão contemplada em outro projeto front-end.
 
 ## Modelo de banco de dados (Tabelas utilizadas no projeto)
 
-•	AspNetUsers (Tabela criada pelo gerenciamento de usuários Microsoft Identity)
+*	AspNetUsers (Tabela criada pelo gerenciamento de usuários Microsoft Identity)
 Tabela de armazenagem dos usuários do portal (Customizada com campos)
 
-•	TB_MESSAGE(Tabela criada para cadastro dos MESSAGE)
+*	TB_MESSAGE(Tabela criada para cadastro dos MESSAGE)
 Tabela de armazenagem de notícias.
 
-•	TB_BOOKING(Tabela criada para cadastro dos BOOKING)
+*	TB_BOOKING(Tabela criada para cadastro dos BOOKING)
 Tabela de armazenagem de reservas.
 
 ### Tabela AspNetUsers
 
 | Nome Coluna	| Tipo	       | Tamanho	| Obrigatório	| Default	| Observação            |
-|-----------------------------------------------------------------------------!-------|
+|-------------|-------------|---------|-------------|---------|-----------------------|
 | USR_CPF     |	VARCHAR(20) |	20	     | SIM	        |         |                       |
 | USR_TIPO    |	INT	        |	        | SIM         |	Comum	  | Administrador / Comum	|
 
 ### Tabela TB_MESSAGE
 
 | Nome Coluna	       | Tipo	        | Tamanho	| Obrigatório	| Default	| Observação   |
-|------------------------------------------------------------------------------------|
+|--------------------|--------------|---------|-------------|---------|--------------|
 | MSN_TITULO         |	VARCHAR(255)	| 255    	| SIM	       	|         |              |
 | MSN_ATIVO          |	BOOL		       |         | SIM	        | Ativo   | True / False |	
 | MSN_DATA_CADASTRO  |	DATETIME	    |         |	SIM		       |         | Automático   |
@@ -82,7 +82,7 @@ Tabela de armazenagem de reservas.
 ### Tabela TB_BOOKING
 
 | Nome Coluna	         | Tipo	        | Tamanho	| Obrigatório	| Default	| Observação   |
-|--------------------------------------------------------------------------------------|
+|----------------------|--------------|---------|-------------|---------|--------------|
 | BOK_LOCAL            |	INT         	|        	| SIM	       	|         | Lista        |
 | BOK_SALA             |	INT          |         | SIM	        |         | Lista        |	
 | BOK_DATA_HORA_INICIO |	DATETIME	    |         |	SIM		       |         |              |
@@ -92,11 +92,34 @@ Tabela de armazenagem de reservas.
 | BOK_QTD_PESSOAS_CAFE |	INT     	    |         |	NÃO		       |         |              |
 | BOK_DESCRICAO        | VARCHAR(255)	|	255     | NÃO		       |         |              |
 
+## Execução do projeto
+
+Para a execução do projeto deve-se utilizar o Visual Studio 2022 atualizado com a verão do DotNet 7.
+
+* Primeiro abra o arquivo Back-end.sln
+* Depois defina o projeto WebAPI como projeto de inicialização.
+* Mude a string de conexão para apontar para o seu banco de dados SQL Server 2019.
+* Abra o "Console do Gerenciador de Pacotes" nuget no visual studio.
+* Defina o projeto inicial no gerenciador de pacotes como "3 - Infra\Infrastructure" 
+* Execute os comando para gerar as migrations e o banco de dados abaixo.
+* Por fim execute o projeto para testar a aplicação.
+
+Comandos instalar as ferramentas do EntityFrameworkCore:(Caso você não os tenha instalado)
+```
+Install-Package Microsoft.EntityFrameworkCore.Tools
+
+Install-Package Microsoft.EntityFrameworkCore.Design
+```
+Comandos para o Gerar o banco de dados:
+```
+Add-Migration BancoInicial -Context ContextBase
+
+Update-Database -Context ContextBase
+```
+
 ### Envolvidos 
 
-Nome -	Luiz Fernando da Silva 
-Data	-	16/11/2022	
-Status - Eviado
+**Nome:**	Luiz Fernando da Silva - **Data:**	16/11/2022	- **Status:** Eviado
 
 
 
