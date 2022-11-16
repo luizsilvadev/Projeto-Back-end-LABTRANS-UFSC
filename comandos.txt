@@ -1,0 +1,102 @@
+Install-Package Microsoft.EntityFrameworkCore.Tools
+
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+Add-Migration Inicial -Context ContextBase
+
+Update-Database -Context ContextBase
+
+{
+  "email": "luizprofissional@hotmail.com",
+  "senha": "@DevNetCore123",
+  "cpf": "06675651676"
+}
+
+[
+  {
+    "id": 0,
+    "titulo": "string",
+    "ativo": true,
+    "dataCadastro": "2022-11-12T22:31:08.302Z",
+    "dataAlteracao": "2022-11-12T22:31:08.302Z"
+  }
+]
+cafe: true
+dataHoraFim: "2022-11-23T20:28"
+dataHoraInicio: "2022-11-23T16:28"
+descricao: "Sala para a camilinha"
+local: "1"
+qtdPessoasCafe: "6"
+responsavel: "Camila"
+sala: "1"
+[
+  {
+    "id": 0,
+    "local": 1,
+    "sala": 1,
+    "dataHoraInicio": "2022-11-12T22:38:19.388Z",
+    "dataHoraFim": "2022-11-12T22:38:19.388Z",
+    "responsavel": "string",
+    "cafe": true,
+    "qtdPessoasCafe": 0,
+    "descricao": "string"
+  }
+]
+
+Local   lista  obrigatorio
+Sala   lista  obrigatorio
+DataHoraInicio  data  obrigatorio
+DataHoraFim   data  obrigatorio
+Responsavel texto  obrigatorio
+Cafe bool false
+QtdPessoasCafé  num
+Descricao   texto
+
+validar choque de horaio na mesma sala informar sala ocupada
+
+/* logica por trás da regra de negócio sobre horários de agendamento
+        
+ 	    di1                                                        df1
+ 	     |----------------------------------------------------------|   colidindo
+                 |------------------------------|                       
+                di2                            df2
+        
+ 					        di1                    df1
+  					         |----------------------|                   colidindo
+  		 |----------------------------------------------------------|   
+ 		di2                                                        df2  
+
+        di1                                   df1
+         |-------------------------------------|                        colidindo
+                                     |------------------------------|   
+                                    di2                            df2
+
+ 					        di1                                    df1  
+  					        |---------------------------------------|   colidindo
+         |-----------------------------------|                          
+        di2                                 df2
+
+ 					        		        di1                    df1  
+ 						        	         |----------------------|   não colidindo
+         |------------------------------|                               
+        di2                            df2
+        
+ 		di1                    df1
+  		 |----------------------|                                       não colidindo
+  						             |------------------------------|   
+ 						            di2                            df2
+        
+        if (( di2 <= di1 && di1 <= df2 ) || ( di2 <= df1 && df1 <= df2 ) || ( di1 <= di2 && df2 <= df1 )) {
+	        return 'Horario invalido';
+        }
+        
+        if (!( di2 <= di1 && df2 <= di1 ) || !( di2 >= di1 && df2 >= di1 )) {
+	        return 'Horario invalido';
+        }
+        
+        partindo do pressuposto de que a data inicial é sempre menor que a final temos
+        
+        if (!( df2 <= di1 || di2 >= df1 )) {
+	        return 'Horario invalido';
+        }
+*/
