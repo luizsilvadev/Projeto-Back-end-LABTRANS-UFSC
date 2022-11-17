@@ -26,3 +26,17 @@ C:\desenvolvimento\Back-end\Entities\obj\Debug\net7.0\refint\Entities.dll
 C:\desenvolvimento\Back-end\Entities\obj\Debug\net7.0\Entities.pdb
 C:\desenvolvimento\Back-end\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
 C:\desenvolvimento\Back-end\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\bin\Debug\net7.0\Entities.dll
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\bin\Debug\net7.0\Entities.pdb
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\Entities.dll
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\Entities.pdb
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
+C:\desenvolvimento\Back-end\Projeto-Back-end-LABTRANS-UFSC\Entities\obj\Debug\net7.0\ref\Entities.dll

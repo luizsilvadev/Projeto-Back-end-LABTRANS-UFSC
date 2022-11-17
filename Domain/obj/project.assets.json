@@ -544,11 +544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\desenvolvimento\\Back-end\\Domain\\Domain.csproj",
+      "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\luizp\\.nuget\\packages\\",
-      "outputPath": "C:\\desenvolvimento\\Back-end\\Domain\\obj\\",
+      "outputPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -565,8 +565,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj"
+            "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj"
             }
           }
         }

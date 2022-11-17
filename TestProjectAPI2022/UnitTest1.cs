@@ -12,16 +12,16 @@ namespace TestProjectAPI2022
         public static string Token { get; set; }
 
         [TestMethod]
-        public void TestMethod1()
+        public async Task TestMethod1()
         {
-            var result = ChamaApiPost("https://localhost:7197/api/ListBooking").Result;
+            var result = await ChamaApiPost("https://localhost:7197/api/ListBooking");
 
             var listaMessage = JsonConvert.DeserializeObject<Booking[]>(result).ToList();
 
             Assert.IsTrue(listaMessage.Any());
         }
 
-        public void GetToken()
+        public async Task GetToken()
         {
 
             string urlApiGeraToken = "https://localhost:7197/api/CreateTokenIdentity";
@@ -37,31 +37,32 @@ namespace TestProjectAPI2022
                     cpf = "string"
                 };
                 string JsonObjeto = JsonConvert.SerializeObject(dados);
+
                 var content = new StringContent(JsonObjeto, Encoding.UTF8, "application/json");
 
-                var resultado = cliente.PostAsync(urlApiGeraToken, content);
-                resultado.Wait();
-                if (resultado.Result.IsSuccessStatusCode)
+                var resultado = await cliente.PostAsync(urlApiGeraToken, content);
+
+                if (resultado.IsSuccessStatusCode)
                 {
-                    var tokenJson = resultado.Result.Content.ReadAsStringAsync();
-                    Token = JsonConvert.DeserializeObject(tokenJson.Result).ToString();
+                    var tokenJson = await resultado.Content.ReadAsStringAsync();
+                    Token = JsonConvert.DeserializeObject(tokenJson).ToString();
                 }
 
             }
         }
 
-        public string ChamaApiGet(string url)
+        public async Task<string> ChamaApiGet(string url)
         {
-            GetToken(); // Gerar token
+            await GetToken(); // Gerar token
             if (!string.IsNullOrWhiteSpace(Token))
             {
                 using (var cliente = new HttpClient())
                 {
                     cliente.DefaultRequestHeaders.Clear();
                     cliente.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token);
-                    var response = cliente.GetStringAsync(url);
-                    response.Wait();
-                    return response.Result;
+                    var response = await cliente.GetStringAsync(url);
+
+                    return response;
                 }
             }
 
@@ -75,18 +76,18 @@ namespace TestProjectAPI2022
             string JsonObjeto = dados != null ? JsonConvert.SerializeObject(dados) : "";
             var content = new StringContent(JsonObjeto, Encoding.UTF8, "application/json");
 
-            GetToken(); // Gerar token
+            await GetToken(); // Gerar token
             if (!string.IsNullOrWhiteSpace(Token))
             {
                 using (var cliente = new HttpClient())
                 {
                     cliente.DefaultRequestHeaders.Clear();
                     cliente.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token);
-                    var response = cliente.PostAsync(url, content);
-                    response.Wait();
-                    if (response.Result.IsSuccessStatusCode)
+                    var response = await cliente.PostAsync(url, content);
+
+                    if (response.IsSuccessStatusCode)
                     {
-                        var retorno = await response.Result.Content.ReadAsStringAsync();
+                        var retorno = await response.Content.ReadAsStringAsync();
 
                         return retorno;
                     }

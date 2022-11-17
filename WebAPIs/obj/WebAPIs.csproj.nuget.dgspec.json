@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\desenvolvimento\\Back-end\\WebAPIs\\WebAPIs.csproj": {}
+    "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\WebAPIs.csproj": {}
   },
   "projects": {
-    "C:\\desenvolvimento\\Back-end\\Domain\\Domain.csproj": {
+    "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\desenvolvimento\\Back-end\\Domain\\Domain.csproj",
+        "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\luizp\\.nuget\\packages\\",
-        "outputPath": "C:\\desenvolvimento\\Back-end\\Domain\\obj\\",
+        "outputPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj"
+              "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj": {
+    "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj",
+        "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\luizp\\.nuget\\packages\\",
-        "outputPath": "C:\\desenvolvimento\\Back-end\\Entities\\obj\\",
+        "outputPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\desenvolvimento\\Back-end\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\desenvolvimento\\Back-end\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\luizp\\.nuget\\packages\\",
-        "outputPath": "C:\\desenvolvimento\\Back-end\\Infrastructure\\obj\\",
+        "outputPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,11 +160,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\desenvolvimento\\Back-end\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\desenvolvimento\\Back-end\\Domain\\Domain.csproj"
+              "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Domain\\Domain.csproj"
               },
-              "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj"
+              "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj"
               }
             }
           }
@@ -212,14 +212,14 @@
         }
       }
     },
-    "C:\\desenvolvimento\\Back-end\\WebAPIs\\WebAPIs.csproj": {
+    "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\WebAPIs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\WebAPIs\\WebAPIs.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\WebAPIs.csproj",
         "projectName": "WebAPIs",
-        "projectPath": "C:\\desenvolvimento\\Back-end\\WebAPIs\\WebAPIs.csproj",
+        "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\WebAPIs.csproj",
         "packagesPath": "C:\\Users\\luizp\\.nuget\\packages\\",
-        "outputPath": "C:\\desenvolvimento\\Back-end\\WebAPIs\\obj\\",
+        "outputPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -236,8 +236,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\desenvolvimento\\Back-end\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\desenvolvimento\\Back-end\\Infrastructure\\Infrastructure.csproj"
+              "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

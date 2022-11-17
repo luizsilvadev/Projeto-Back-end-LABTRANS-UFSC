@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "75SP65NSsIFFA5/2J+etySnjAn4SiqWr1ravRJnsj9BqTOWviqgeYDW/0yEGX7l8lmNsHnhmyINeH3T1SvbFng==",
+  "dgSpecHash": "125B5Kgc5Rg0lIt2PMMYbQVFTKmwLeMuNGi4AE9mEQZBt0mI/MoTMKjtV4k1lCbb175ujYmAODwYMFhj1971xg==",
   "success": true,
-  "projectFilePath": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luizp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\luizp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.0\\microsoft.aspnetcore.cryptography.internal.7.0.0.nupkg.sha512",

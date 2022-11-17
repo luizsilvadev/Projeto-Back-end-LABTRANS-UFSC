@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\desenvolvimento\\Back-end\\TestProjectAPI2022\\TestProjectAPI2022.csproj": {}
+    "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\TestProjectAPI2022\\TestProjectAPI2022.csproj": {}
   },
   "projects": {
-    "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj": {
+    "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj",
+        "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\luizp\\.nuget\\packages\\",
-        "outputPath": "C:\\desenvolvimento\\Back-end\\Entities\\obj\\",
+        "outputPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\desenvolvimento\\Back-end\\TestProjectAPI2022\\TestProjectAPI2022.csproj": {
+    "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\TestProjectAPI2022\\TestProjectAPI2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\TestProjectAPI2022\\TestProjectAPI2022.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\TestProjectAPI2022\\TestProjectAPI2022.csproj",
         "projectName": "TestProjectAPI2022",
-        "projectPath": "C:\\desenvolvimento\\Back-end\\TestProjectAPI2022\\TestProjectAPI2022.csproj",
+        "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\TestProjectAPI2022\\TestProjectAPI2022.csproj",
         "packagesPath": "C:\\Users\\luizp\\.nuget\\packages\\",
-        "outputPath": "C:\\desenvolvimento\\Back-end\\TestProjectAPI2022\\obj\\",
+        "outputPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\TestProjectAPI2022\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,8 +101,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\desenvolvimento\\Back-end\\Entities\\Entities.csproj"
+              "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Entities\\Entities.csproj"
               }
             }
           }

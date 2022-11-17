@@ -131,9 +131,9 @@ namespace Domain.Services
             return false;
         }
 
-        public async Task<List<Booking>> ListarBookingCafe()
-        {
-            return await _IBooking.ListarBooking(n => n.Cafe);
-        }
+        //public async Task<List<Booking>> ListarBookingCafe()
+        //{
+        //    return await _IBooking.ListarBooking(n => n.Cafe);
+        //}
     }
 }

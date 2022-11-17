@@ -33,13 +33,13 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 // INTERFACE E REPOSITORIO
-builder.Services.AddSingleton(typeof(IGeneric<>), typeof(RepositoryGenerics<>));
-builder.Services.AddSingleton<IMessage, RepositoryMessage>();
-builder.Services.AddSingleton<IBooking, RepositoryBooking>();
+builder.Services.AddScoped(typeof(IGeneric<>), typeof(RepositoryGenerics<>));
+builder.Services.AddScoped<IMessage, RepositoryMessage>();
+builder.Services.AddScoped<IBooking, RepositoryBooking>();
 
 // SERVIÇO DOMINIO
-builder.Services.AddSingleton<IServiceMessage, ServiceMessage>();
-builder.Services.AddSingleton<IServiceBooking, ServiceBooking>();
+builder.Services.AddScoped<IServiceMessage, ServiceMessage>();
+builder.Services.AddScoped<IServiceBooking, ServiceBooking>();
 
 
 // JWT

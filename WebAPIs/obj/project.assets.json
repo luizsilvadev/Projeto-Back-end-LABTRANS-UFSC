@@ -4460,11 +4460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\desenvolvimento\\Back-end\\WebAPIs\\WebAPIs.csproj",
+      "projectUniqueName": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\WebAPIs.csproj",
       "projectName": "WebAPIs",
-      "projectPath": "C:\\desenvolvimento\\Back-end\\WebAPIs\\WebAPIs.csproj",
+      "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\WebAPIs.csproj",
       "packagesPath": "C:\\Users\\luizp\\.nuget\\packages\\",
-      "outputPath": "C:\\desenvolvimento\\Back-end\\WebAPIs\\obj\\",
+      "outputPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4481,8 +4481,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\desenvolvimento\\Back-end\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\desenvolvimento\\Back-end\\Infrastructure\\Infrastructure.csproj"
+            "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

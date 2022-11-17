@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7XPgx4IZ1sVY2zsxPoU5zw8K7mvNsQBRWKi3nynvmo5GWiDEV9pPqXIiiPt13L0NtbyS2wReD4zABKQ5iiTwew==",
+  "dgSpecHash": "eAlN9YA7A90hpxAjErP36rcJi5qO5UzT6oKkVm2pasEPk86OjzInnVLdGy0xHdRiGofsaUOn2RM8Oa7eD3yWsg==",
   "success": true,
-  "projectFilePath": "C:\\desenvolvimento\\Back-end\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luizp\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\luizp\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

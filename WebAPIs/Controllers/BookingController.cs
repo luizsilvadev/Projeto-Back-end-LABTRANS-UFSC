@@ -23,7 +23,7 @@ namespace WebAPIs.Controllers
             _IServiceBooking = IServiceBooking;
         }
 
-        //[Authorize]
+        [Authorize]
         [Produces("application/json")]
         [HttpPost("/api/AddBooking")]
         public async Task<List<Notifies>> Add(BookingViewModel Booking)
@@ -63,7 +63,7 @@ namespace WebAPIs.Controllers
             return BookingMap;
         }
 
-        //[Authorize]   
+        [Authorize]   
         [AllowAnonymous]
         [Produces("application/json")]
         [HttpPost("/api/ListBooking")]
@@ -74,15 +74,15 @@ namespace WebAPIs.Controllers
             return BookingMap;
         }
 
-        [Authorize]
-        [Produces("application/json")]
-        [HttpPost("/api/ListBookingActives")]
-        public async Task<List<BookingViewModel>> ListarBookingAtivas()
-        {
-            var mensagens = await _IServiceBooking.ListarBookingCafe();
-            var BookingMap = _IMapper.Map<List<BookingViewModel>>(mensagens);
-            return BookingMap;
-        }
+        //[Authorize]
+        //[Produces("application/json")]
+        //[HttpPost("/api/ListBookingCafe")]
+        //public async Task<List<BookingViewModel>> ListarBookingCafe()
+        //{
+        //    var mensagens = await _IServiceBooking.ListarBookingCafe();
+        //    var BookingMap = _IMapper.Map<List<BookingViewModel>>(mensagens);
+        //    return BookingMap;
+        //}
 
     }
 }

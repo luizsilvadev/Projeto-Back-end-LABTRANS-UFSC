@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OoRW5W1kCAbiolR5tYK5QaBm880q33AOkbiE4PESeJNudPwdtdaka0x7AH4EAW+h/Yw7qtf0BkkAgKPkRL1RNw==",
+  "dgSpecHash": "YfhMntq/IYOI5t+b06SsAFNaDe0mp4zXMRhMcR2hzdB+GU0bRRVgiqh1wi35xXxfu+7nNHQo+BhS3yWdSHxPwA==",
   "success": true,
-  "projectFilePath": "C:\\desenvolvimento\\Back-end\\WebAPIs\\WebAPIs.csproj",
+  "projectFilePath": "C:\\desenvolvimento\\Back-end\\Projeto-Back-end-LABTRANS-UFSC\\WebAPIs\\WebAPIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luizp\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\luizp\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

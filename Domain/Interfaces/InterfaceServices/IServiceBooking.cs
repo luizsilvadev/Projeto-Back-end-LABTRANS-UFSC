@@ -13,7 +13,7 @@ namespace Domain.Interfaces.InterfaceServices
 
         Task Atualizar(Booking Objeto);
 
-        Task<List<Booking>> ListarBookingCafe();
+        //Task<List<Booking>> ListarBookingCafe();
 
     }
 }
