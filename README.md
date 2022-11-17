@@ -9,15 +9,16 @@ Este documento tem como objetivo demonstrar todos os requisitos funcionais e des
 
 ### Objetivo do Software
 
-APIs Mensagens tem como objetivo disponibilizar a primeira parte das APis como teste simples como bônus.
+APIs Mensagens tem como objetivo disponibilizar a primeira parte das APIs como teste simples como bônus.
+
 APIs Reservas tem como objetivo disponibilizar a funcionalidade principal do desafio que é realizar reservas de salas para a empresa Banana Ltda.
 
 ### Detalhes do Software – APIs de CRUD do sistema
 
 Este projeto será comtemplado com APis básicas de cadastro e listagens.
-API de Cadastro de usuários (Utilizaremos o Identity Microsoft).
-APIs de Cadastro, edição, exclusão, listagem de Mensagens.
-APIs de Cadastro, edição, exclusão, listagem de Reservas de salas
+* API de Cadastro de usuários (Utilizaremos o Identity Microsoft).
+* APIs de Cadastro, edição, exclusão, listagem de Mensagens.
+* APIs de Cadastro, edição, exclusão, listagem de Reservas de salas
 
 ### Detalhes do Software – Regras APis Notificações
 
@@ -41,11 +42,11 @@ Resumindo, nossa regra de negócio se encontrará toda no domínio da aplicaçã
 
 ### Detalhes técnicos
 
-Identity Microsoft: Gerenciamento de usuários
-Framework: .NET 7
-Linguagem de programação: C#
-Banco de dados: SQL Server
-Front-End: APIs Swagger UI
+* Identity Microsoft: Gerenciamento de usuários
+* Framework: .NET 7
+* Linguagem de programação: C#
+* Banco de dados: SQL Server
+* Front-End: APIs Swagger UI
 
 ### Detalhes técnicos do design da tela
 
