@@ -22,7 +22,7 @@ Este projeto será comtemplado com APis básicas de cadastro e listagens.
 
 ### Detalhes do Software – Regras APis Notificações
 
-Esta API será comtemplada com 1 regras de validação.
+Esta API será comtemplada com 1 regra de validação.
 *	Validação de título não pode ser vazio.
 
 ### Detalhes do Software – Regras APis Reservas
